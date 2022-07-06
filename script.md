@@ -219,9 +219,7 @@ This pool is only possible because of the hard work of contributors. The main [r
 
 If you're interested to know more about it's features and how it works, including how to set things up on a different OS, this is the place to come. And at the bottom of this page you will find a donation address. The people who work on these things do it mostly for love rather than money, so every donation goes to keeping them motivated.
 
-Well, we hope this guide has helped you on your way to participating in Monero ecosystem. If you're interested in more in depth guides, please check out the other videos in our channel.
-
-Finally, if you found this useful and want to send us a tip, our address can be found on screen now.
+Well, we hope this guide has helped you on your way to participating in Monero ecosystem. If you're interested in more in depth guides, please check out the other videos in our channel. And, if you found this useful and want to send us a tip, our address can be found on screen now.
 
 Anyway, that's all from us this time around. So goodbye for now.
 
