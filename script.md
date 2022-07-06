@@ -221,6 +221,8 @@ If you're interested to know more about it's features and how it works, includin
 
 Well, we hope this guide has helped you on your way to participating in Monero ecosystem. If you're interested in more in depth guides, please check out the other videos in our channel.
 
-That's all from us this time around. So goodbye for now.
+Finally, if you found this useful and want to send us a tip, our address can be found on screen now.
+
+Anyway, that's all from us this time around. So goodbye for now.
 
 ~moneroguides
