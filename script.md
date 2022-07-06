@@ -204,7 +204,7 @@ You may be wondering how to know when you can successfully sign up to the raffle
 
 You can easily check your progress of your miner remotely by visiting [mini.p2pool.observer](https://mini.p2pool.observer/).
 
-Here you can use your Monero address to search and find your individual progress. Once again, as we're new to mining we'll get an error. Only once we've have begun finding shares will we see information about the miner and its progress. 
+Here you can use your Monero address to search and find your individual progress. Once again, as we're new to mining we'll get an error. Only once we've have begun finding shares will we see information about the miner and its progress. Once we see a valid share, we can then sign up for the raffle.
 
 To find out how often you may produce shares, head back to the main page and select the average share time calculator, punch in your hashrate and you'll receive an estimate.
 
