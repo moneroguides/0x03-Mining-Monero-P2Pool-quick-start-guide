@@ -4,7 +4,7 @@
 
 * gpg (Linux)
 * Kleopatra (Windows) - [GPG4WIN](https://www.gpg4win.org)
-* >50GB of free disk space
+* +50GB of free disk space
 
 <hr/>
 
