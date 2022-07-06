@@ -151,7 +151,7 @@ When your node is synchronised as you can see mine is now, it will be time for y
 
 Alright, it's nearly time to get our mining underway. The software is now synchronised with the rest of the network and we've now only got a few more setting to change. 
 
-We're now to going to select the setting tab from the menu and then node. 
+We're now to going to select the *settings* tab from the menu and then *node*. 
 
 For now we're going to stop the daemon with the button provided.
 
@@ -163,7 +163,9 @@ These options help to ensure reliability and security. Once you've entered those
 
 To access the mining menu, click on the advanced tab.
 
-Here we want to change mode to P2Pool. We're going to leave everything else as default for now. let's now click *Start mining*.
+Here we want to change mode to P2Pool and confirm we're using the *mini* side chain, which is recomended for all new users. We're going to leave everything else as default for now. 
+
+Let's now click *Start mining*.
 
 To continue, the Monero software will need to install the additional P2Pool software. It will automatically install it to the same location and all we have to do is select *yes*.
 
@@ -200,7 +202,7 @@ If you have any troubles with these steps please head over to the [xmrvsbeast su
 
 You may be wondering how to know when you can successfully sign up to the raffle.
 
-You can easily check your progress of your miner remotely by visiting [p2pool.observer](https://p2pool.observer/).
+You can easily check your progress of your miner remotely by visiting [mini.p2pool.observer](https://mini.p2pool.observer/).
 
 Here you can use your Monero address to search and find your individual progress. Once again, as we're new to mining we'll get an error. Only once we've have begun finding shares will we see information about the miner and its progress. 
 
