@@ -82,7 +82,7 @@ By now you should have downloaded and verified the contents of your download.
 
 To install the software, simply extract the contents of the zip file and then double click on the installer.
 
-We'll be prompted to navigate through a welcome screen and then a  licence agreement. The Monero Wallet GUI is free and open sources software, so this agreement is shorter than you may think.
+We'll be prompted to navigate through a welcome screen and then a  licence agreement. The Monero Wallet GUI is free and open source software, so this agreement is shorter than you may think.
 
 After clicking accept and next we will now need to choose where to install the software. I'm going to choose the default location.
 
