@@ -126,7 +126,7 @@ After making a copy of these information, select next and then enter a new, stro
 
 When you're ready to continue, hit next.
 
-Mining using this GUI is only possible with the availability of a local node. Hosting a local node is both great for the security of the next and your own personal privacy.
+Mining using this GUI is only possible with the availability of a local node. Hosting a local node is both great for the security of others and your own personal privacy.
 
 To run your own local node you need to download a copy of the blockchain. The entire Monero blockchain is current around 130GB in size. It is constantly increasing in size and something you should keep in mind.
 
@@ -138,7 +138,7 @@ To finish up, all we need to do is review our settings and select *Create wallet
 
 In the bottom left hand corner of the landing page you will notice that the current network status is labelled *Synchronising*. Be prepared to wait a significant amount of time for this process to complete. It can take anywhere from 12 hours to a week. The time it takes to complete will depend on your blockchain choices, your hardware and your internet speed.
 
-For the best performance, please write the blockchain to an SSD.
+Writing the blockchain to an SSD will guarantee the best performance.
 
 Currently we’re only leaching the blockchain from the P2P network and sharing is caring after all, so we’ll want to enable seeding as well. To do this, we’re going to have to set special rules in the firewall to allow incoming connections for the Monero Peer Network (18080) and the P2Pool Peer Network (37889) on both our computers and routers.
 
@@ -149,7 +149,7 @@ When your node is synchronised as you can see mine is now, it will be time for y
 
 ### TIME TO MINE 
 
-Alright, it's nearly time to get our mining underway. The software is now synchronised with the rest of the network and we've now only got a few more setting to change. 
+Alright, it's nearly time to get our mining underway. The software is now synchronised with the rest of the network and we've now only got a few more settings to change. 
 
 We're now to going to select the *settings* tab from the menu and then *node*. 
 
