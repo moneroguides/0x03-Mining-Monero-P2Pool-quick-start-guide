@@ -14,13 +14,13 @@ Hello and welcome. In this tutorial we'll be showing you how to quickly and easi
 
 To do this we'll be downloading and installing the official Monero wallet GUI. This software is built by the community and distributed by the Monero core team.
 
-It has a convenient interface which will allow you to start mining via the [P2Pool](https://github.com/SChernykh/p2pool/), the most effective and simple way to start earning Monero with your home PC!
+It has a convenient interface which will allow you to start mining via [P2Pool](https://github.com/SChernykh/p2pool/), the most effective and simple way to start earning Monero with your home PC!
 
-Before getting started there are a couple of prerequisites:  Firstly, as a Windows user you will need to have Kleopatra installed for Linux and Mac users should have gpg. This software is used to verify the contents of the files and folders we will be downloading.
+Before getting started there are a couple of prerequisites:  Firstly, as a Windows user you will need to have Kleopatra installed while Linux and Mac users should have gpg installed. This software is used to verify the contents of the files and folders we'll be downloading.
 
-**Beware Mac users, we don't give specific advice for you. However, you should be able to follow the linux instructions without too much trouble.**
+**Mac users beware, this tutorial doesn't contain specific advice for you. However, you should be able to follow the linux instructions without too much trouble.**
 
-In addition to this software you will need 50GB or more free disk space. This is necessary for downloading either a full of pruned copy of the blockchain.
+In addition to this software you'll need 50GB or more disk space free. This is necessary for downloading either a full of pruned copy of the blockchain.
 
 This guide assumes no previous mining experience. If you already have xmrig and/or the latest version of the Monero daemon, you may wish to to look at the official [P2Pool repo](https://github.com/SChernykh/p2pool/) for more specific instructions. 
 
@@ -44,13 +44,13 @@ To check that these are the files intended for use by the creators we’ll need 
 - Either a signed copy of the file hashes; or a signature file ending with '.asc'
 - The public key of the person who signed them
 
-We can find these files using the "Show hashes to verify your download" drop down menu.
+We can find these files using the "Show hashes to verify your download" drop-down menu.
 
 The first link gives us a copy of the signed hashes. Simply right click and *save link as* to download this text file.
 
 To locate binaryfate's public key, we should head back to the getmonero site and click on the link entitled *in the source code*. 
 
-This link has directed us directly to binaryfate's public key. To download a copy, simply right click on the *Raw* button and click *save link as*.
+This link has taken us directly to binaryfate's public key. To download a copy, simply right click on the *Raw* button and click *save link as*.
 
 For the rest of the process please take a look at our guide entitled [01x01 - Importing Public Keys & Verifying Hashes](https://moneroguides.org/tutorials/01x01-importing-public-keys-and-verifying-hashes/). Feel free to stop after watching the section entitled **VERIFYING SIGNATURES & HASHES**, as you can then return to this guide.
 
@@ -120,31 +120,31 @@ We're going to want to create a brand new wallet. This is because the primary ad
 
 We're then prompted to choose a name for a wallet, and a save location. I'm going to be saving my wallet to an encrypted drive, which I set up earlier.
 
-We're also given an opportunity to record our new seed phrase and the restore height. These are important pieces of information and act as a the keys to the wallet.
+We're also given an opportunity to record our new seed phrase and the restore height. These are important pieces of information and act as the keys to the wallet.
 
-After making a copy of these information, select next and then enter a new, strong password to encrypt the wallet file. We recommend using password generators usually bundled with managers such as Bitwarden and KeePassXC.
+After making a copy of this information, select next and then enter a new, strong password to encrypt the wallet file. We recommend using password generators usually bundled with managers such as Bitwarden and KeePassXC.
 
 When you're ready to continue, hit next.
 
 Mining using this GUI is only possible with the availability of a local node. Hosting a local node is both great for the security of others and your own personal privacy.
 
-To run your own local node you need to download a copy of the blockchain. The entire Monero blockchain is current around 130GB in size. It is constantly increasing in size and something you should keep in mind.
+To run your own local node you need to download a copy of the blockchain. The entire Monero blockchain is currently around 130GB in size. It's constantly increasing in size and is something you should keep in mind.
 
 For those who don't have this amount of memory to spare, you can alternatively download a pruned copy of the blockchain, this currently takes around 50GB of space.
 
-Depending on your own circumstances you will want to select different options to us. We're going to download a full copy of the blockchain to the default location. So all that's left to do is click next once again.
+Depending on your own circumstances you will want to select different options. We're going to download a full copy of the blockchain to the default location, so all that's left to do is click next once again.
 
-To finish up, all we need to do is review our settings and select *Create wallet* and then enter the password we chose in the previous set.
+To finish up, all we need to do is review our settings and select *Create wallet* and then enter the password we chose in the previous step.
 
-In the bottom left hand corner of the landing page you will notice that the current network status is labelled *Synchronising*. Be prepared to wait a significant amount of time for this process to complete. It can take anywhere from 12 hours to a week. The time it takes to complete will depend on your blockchain choices, your hardware and your internet speed.
+In the bottom left-hand corner of the landing page you'll notice that the current network status is labelled *Synchronising*. Be prepared to wait a significant amount of time for this process to complete. It can take anywhere from 12 hours to a week. The time it takes to complete will depend on your blockchain choices, your hardware and your internet speed.
 
 Writing the blockchain to an SSD will guarantee the best performance.
 
-Currently we’re only leaching the blockchain from the P2P network and sharing is caring after all, so we’ll want to enable seeding as well. To do this, we’re going to have to set special rules in the firewall to allow incoming connections for the Monero Peer Network (18080) and the P2Pool Peer Network (37889) on both our computers and routers.
+Currently we’re only leeching the blockchain from the P2P network and sharing is caring after all, so we’ll want to enable seeding as well. To do this, we’re going to have to set special rules in the firewall to allow incoming connections for the Monero Peer Network (18080) and the P2Pool Peer Network (37889) on both our computers and routers.
 
-To do this, please take a look at the port forwarding sections of our [node setup guide](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/)
+For information on how to do this, you can check out our [node setup guide](https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/)
 
-When your node is synchronised as you can see mine is now, it will be time for you to move onto the next section.
+Once your node is synchronised (as you can see mine is now) it will be time for you to move on to the next section.
 
 
 ### TIME TO MINE 
@@ -155,7 +155,7 @@ We're now to going to select the *settings* tab from the menu and then *node*.
 
 For now we're going to stop the daemon with the button provided.
 
-Next we're going to add the following flags to box provided. You can find a copy of them in the video description.
+Next we're going to add the following flags to the box provided. You can find a copy of them in the video description.
 
 `--disable-dns-checkpoints --enable-dns-blocklist`
 
@@ -165,11 +165,11 @@ To access the mining menu, click on the advanced tab.
 
 Here we want to change mode to P2Pool and confirm we're using the *mini* side chain, which is recomended for all new users. We're going to leave everything else as default for now. 
 
-Let's now click *Start mining*.
+Let's click *Start mining*.
 
 To continue, the Monero software will need to install the additional P2Pool software. It will automatically install it to the same location and all we have to do is select *yes*.
 
-It will take a short while to download and when it's done, you will receive a prompt.
+It will take a short while to download and when it's done, you'll receive a prompt.
 
 It's finally time to start mining! So let's go ahead and select *Start mining* once more.
 
@@ -186,13 +186,13 @@ You can sign up to the raffle via the [xmrvsbeast website](https://xmrvsbeast.co
 
 Registration gives you access to two different reward streams. The first is a sequential boost. You can take a look at the boost dashboard via the link. For more details about how it works, just click on *rules*.
 
-Let's now head back to the main raffle basboard. Once again, for more details, click on *rules*. Now that we've seen how this all works, let's register.
+Let's head back to the main raffle basboard. Once again, for more details, click on *rules*. Now that we've seen how this all works, let's register.
 
-To register, you will need to enter the primary address of the new wallet you created. The token field should be left blank for new registrations. 
+To register, you'll need to enter the primary address of the new wallet you created. The token field should be left blank for new registrations. 
 
-As we're new to mining, you will initially receive an error message. This is because you are yet to prove that you are actively mining. Only once you have started making contributions to the network will you be able to register successfully. 
+As we're new to mining, we'll initially receive an error message. This is because we're yet to prove that we're actively mining. Only once we've started making contributions to the network will we be able to register successfully. 
 
-When you do register successfully, make a note of the token you are issued with, as this will be required in the future!
+Once you've registered successfully, make a note of the token you are issued with, as this will be required in the future!
 With your address and token, you can then check the history of your wins, using the link on the main page.
 
 If you have any troubles with these steps please head over to the [xmrvsbeast subreddit](https://www.reddit.com/r/xmrvsbeast) and search for similar issues before posting.
@@ -202,25 +202,24 @@ If you have any troubles with these steps please head over to the [xmrvsbeast su
 
 You may be wondering how to know when you can successfully sign up to the raffle.
 
-You can easily check your progress of your miner remotely by visiting [mini.p2pool.observer](https://mini.p2pool.observer/).
+You can easily check the progress of your miner remotely by visiting [mini.p2pool.observer](https://mini.p2pool.observer/).
 
-Here you can use your Monero address to search and find your individual progress. Once again, as we're new to mining we'll get an error. Only once we've have begun finding shares will we see information about the miner and its progress. Once we see a valid share, we can then sign up for the raffle.
+Here you can use your Monero address to search and find your individual progress. Once again, as we're new to mining we'll get an error. Only once we've begun finding shares will we see information about the miner and its progress. Once we see a valid share, we can then sign up for the raffle.
 
 To find out how often you may produce shares, head back to the main page and select the average share time calculator, punch in your hashrate and you'll receive an estimate.
 
 Let's take a look at another miners progress to see an example. Here you can see statistics from the miner including average effort, blocks found and share positions. Here the shares move from right to left with time .
 
-Below this you will see information about each payout and the shares which enabled those payouts at the bottom. 
+Below this you'll see information about each payout and the shares which enabled those payouts at the bottom. 
 
 
 ### OUTRO
+Well, there you have it! Hopefully you're now up and running and earning those sweet rewards. As a parting note, please remember this pool is only possible because of the hard work of contributors. The main [repository for p2pool](https://github.com/SChernykh/p2pool) can be found in the description below.
 
-This pool is only possible because of the hard work of contributors. The main [repository for p2pool](https://github.com/SChernykh/p2pool) can be found in the description below.
+If you're interested to know more about it's features and how it works, including how to set things up on different OSs, this is the place to come. And at the bottom of this page you will find a donation address. The people who work on these things do it mostly for love rather than money, so every donation goes to keeping them motivated.
 
-If you're interested to know more about it's features and how it works, including how to set things up on a different OS, this is the place to come. And at the bottom of this page you will find a donation address. The people who work on these things do it mostly for love rather than money, so every donation goes to keeping them motivated.
+We sincerely hope this guide has helped you on your way to participating in Monero ecosystem. If you're interested in more in depth guides, please check out the other videos in our channel. And if you found this useful and want to send us a tip, our address can be found on screen now.
 
-Well, we hope this guide has helped you on your way to participating in Monero ecosystem. If you're interested in more in depth guides, please check out the other videos in our channel. And, if you found this useful and want to send us a tip, our address can be found on screen now.
-
-Anyway, that's all from us this time around. So goodbye for now.
+Anyway, that's all from us this time around. So goodbye for now!
 
 ~moneroguides
