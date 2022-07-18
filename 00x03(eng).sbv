@@ -1,0 +1,783 @@
+0:00:05.549,0:00:06.970
+Hello and welcome.
+
+0:00:06.970,0:00:12.070
+In this tutorial we'll be showing you how
+to quickly and easily start mining Monero.
+
+0:00:12.070,0:00:17.020
+To do this we'll be downloading and installing
+the official Monero wallet GUI.
+
+0:00:17.020,0:00:21.720
+This software is built by the community and
+distributed by the Monero core team.
+
+0:00:21.720,0:00:26.630
+It has a convenient interface which will allow
+you to start mining via P2Pool,
+
+0:00:26.630,0:00:31.314
+the most effective and simple way to start
+earning Monero with your home PC!
+
+0:00:31.955,0:00:36.790
+Before getting started there are a couple
+of prerequisites: Firstly, as a Windows user
+
+0:00:36.790,0:00:41.300
+you will need to have Kleopatra installed
+while Linux and Mac users should have gpg
+
+0:00:41.300,0:00:42.300
+installed.
+
+0:00:42.300,0:00:47.460
+This software is used to verify the contents
+of the files and folders we'll be downloading.
+
+0:00:48.230,0:00:53.460
+**Mac users beware, this tutorial doesn't
+contain specific advice for you.
+
+0:00:53.460,0:00:57.940
+However, you should be able to follow the
+linux instructions without too much trouble.**
+
+0:00:57.940,0:01:03.000
+In addition to this software you'll need 50GB
+or more disk space free.
+
+0:01:03.000,0:01:08.159
+This is necessary for downloading either a
+full of pruned copy of the blockchain.
+
+0:01:08.159,0:01:10.860
+This guide assumes no previous mining experience.
+
+0:01:10.860,0:01:15.970
+If you already have xmrig and/or the latest
+version of the Monero daemon, you may wish
+
+0:01:15.970,0:01:20.310
+to to look at the official P2Pool repo
+for more specific instructions.
+
+0:01:27.080,0:01:33.060
+We're going to start by visiting getmonero.org,
+the official website of the Monero Core Team.
+
+0:01:33.060,0:01:37.630
+Feel free to browse the site and learn more
+about Monero before continuing.
+
+0:01:37.630,0:01:40.740
+When you're ready, go ahead and click on the
+Downloads tab.
+
+0:01:40.740,0:01:44.500
+The software we're interested in is the "Monero
+GUI Wallet".
+
+0:01:44.500,0:01:48.970
+To download it, scroll down until you reach
+the "Downloads" subheading.
+
+0:01:49.259,0:01:55.280
+Next, click and download the software which
+matches both your hardware and operating system.
+
+0:01:55.280,0:02:00.360
+As I'm using Ubuntu, I'll be choosing the
+64bit Linux version.
+
+0:02:00.360,0:02:04.890
+To check that these are the files intended
+for use by the creators we’ll need two important
+
+0:02:04.890,0:02:07.200
+pieces of information:
+
+0:02:07.200,0:02:12.000
+Either a signed copy of the file hashes;
+or a signature file ending with '.asc'
+
+0:02:12.364,0:02:14.699
+and the public key of the person who signed
+them
+
+0:02:16.400,0:02:21.619
+We can find these files using the "Show hashes
+to verify your download" drop-down menu.
+
+0:02:22.678,0:02:25.941
+The first link gives us a copy of the signed
+hashes.
+
+0:02:25.941,0:02:31.370
+Simply right click and *save link as* to download
+this text file.
+
+0:02:31.370,0:02:35.870
+To locate binaryfate's public key, we should
+head back to the getmonero site and click
+
+0:02:35.870,0:02:39.010
+on the link entitled *in the source code*.
+
+0:02:39.010,0:02:42.750
+This link has taken us directly to binaryfate's
+public key.
+
+0:02:42.750,0:02:48.360
+To download a copy, simply right click on
+the *Raw* button and click *save link as*.
+
+0:02:48.360,0:02:55.192
+For the rest of the process please take a
+look at our guide entitled Importing Public Keys & Verifying Hashes
+
+0:02:56.340,0:03:01.380
+Feel free to stop after watching the section
+entitled **VERIFYING SIGNATURES & HASHES**,
+
+0:03:01.380,0:03:03.900
+as you can then return to this guide.
+
+0:03:03.900,0:03:07.460
+Make sure to use the files you have downloaded
+now rather than the ones from the other video.
+
+0:03:08.182,0:03:10.800
+The process is exactly the same otherwise.
+
+0:03:11.458,0:03:16.030
+The following two sections cover installation
+for Linux and windows separately.
+
+0:03:16.030,0:03:20.112
+Feel free to use the time stamps to get to
+the section that suits you best.
+
+0:03:26.770,0:03:31.380
+By now you should have downloaded and verified
+the contents of your download.
+
+0:03:31.380,0:03:35.900
+Now that's done, we're going to start by extracting
+the contents of this zipped folder.
+
+0:03:35.900,0:03:40.230
+To do this, we need to simply right click
+and select *Extract Here*.
+
+0:03:40.230,0:03:45.730
+Feel free to place this folder somewhere memorable,
+or alongside your other program files.
+
+0:03:45.730,0:03:47.340
+Let's take a look through the folders.
+
+0:03:47.340,0:03:52.700
+We're looking for the file labelled *monero-wallet-gui.AppImage*.
+
+0:03:52.700,0:03:57.090
+Once found, we can start the program by double
+clicking.
+
+0:03:57.090,0:04:02.120
+We'll first be asked if we want to create
+a desktop entry, I'm going to select yes.
+
+0:04:02.120,0:04:06.686
+This will provide me with a handy icon to
+select each time I want to start mining.
+
+0:04:06.686,0:04:09.230
+After that, we are ready to go.
+
+0:04:09.230,0:04:13.492
+To continue, please skip over the next section
+which is meant for Windows users only.
+
+0:04:20.006,0:04:24.130
+By now you should have downloaded and verified
+the contents of your download.
+
+0:04:24.130,0:04:28.759
+To install the software, simply extract the
+contents of the zip file and then double click
+
+0:04:28.759,0:04:30.069
+on the installer.
+
+0:04:30.566,0:04:35.229
+We'll be prompted to navigate through a welcome
+screen and then a licence agreement.
+
+0:04:35.229,0:04:40.129
+The Monero Wallet GUI is free and open source
+software, so this agreement is shorter than
+
+0:04:40.129,0:04:41.150
+you may think.
+
+0:04:42.337,0:04:47.490
+After clicking accept and next we will now
+need to choose where to install the software.
+
+0:04:47.490,0:04:50.129
+I'm going to choose the default location.
+
+0:04:50.514,0:04:54.389
+Next, we need to choose the location for our
+blockchain data.
+
+0:04:54.389,0:04:58.910
+Don't worry about this 90GB requirement, this
+has changed and will be covered again in the
+
+0:04:58.910,0:04:59.923
+next section.
+
+0:05:01.110,0:05:02.677
+Once again we'll select next.
+
+0:05:03.207,0:05:07.139
+I want the Monero software to appear in my
+start menu, so I'll be leaving this section
+
+0:05:07.139,0:05:09.449
+as it is and moving on.
+
+0:05:09.449,0:05:10.930
+I don't want a desktop icon...
+
+0:05:10.930,0:05:13.449
+I just want to install the software :)
+
+0:05:13.449,0:05:15.000
+And there we have it.
+
+0:05:16.235,0:05:19.240
+Just a couple of things to do before we continue.
+
+0:05:19.240,0:05:23.509
+Let's start by opening the software from the
+start menu.
+
+0:05:23.509,0:05:25.629
+We are now prompted to set some firewall rules.
+
+0:05:25.629,0:05:30.650
+I am going to deselect public networking and
+allow private networking.
+
+0:05:30.650,0:05:35.319
+In the future, this will allow other computers
+in my network to use the blockchain data hosted
+
+0:05:35.319,0:05:36.419
+on this computer.
+
+0:05:37.670,0:05:41.540
+With that done, it's time to add a rule to
+Windows defender.
+
+0:05:41.540,0:05:45.689
+Windows may flag the Monero software as a
+virus in the upcoming steps, so we'll need
+
+0:05:45.689,0:05:49.370
+to create an exclusion rule for the install
+folder.
+
+0:05:49.370,0:05:53.289
+To do this we'll need to go to the virus and
+threat protection settings.
+
+0:05:53.289,0:05:57.460
+You can find this by typing it in the search
+bar or opening the start menu and typing in
+
+0:05:57.460,0:05:58.720
+**virus**.
+
+0:06:00.581,0:06:05.550
+Next, under Virus and Threat Protection Settings,
+click on Manage Settings.
+
+0:06:05.550,0:06:11.529
+Scroll down until you see the *Exclusions*
+section and select *Add or remove exclusions*.
+
+0:06:11.529,0:06:16.590
+Click *Add an exclusion*, choose folder and
+then navigate to the folder that the Monero
+
+0:06:16.590,0:06:19.469
+Wallet GUI was installed to.
+
+0:06:19.469,0:06:21.403
+Finally, we're ready to continue.
+
+0:06:28.157,0:06:30.779
+Welcome to the Monero wallet GUI.
+
+0:06:30.779,0:06:34.409
+Feel free to set the language of the interface
+before continuing.
+
+0:06:34.409,0:06:37.172
+Next we're going to select *Advanced mode*.
+
+0:06:38.263,0:06:40.939
+We're going to want to create a brand new
+wallet.
+
+0:06:40.939,0:06:45.300
+This is because the primary address of your
+miner will be visible to the P2Pool network.
+
+0:06:45.300,0:06:49.789
+It is good to think of this as a wallet dedicated
+to mining only.
+
+0:06:49.789,0:06:54.660
+We're then prompted to choose a name for a
+wallet, and a save location.
+
+0:06:54.660,0:06:58.703
+I'm going to be saving my wallet to an encrypted
+drive, which I set up earlier.
+
+0:06:59.730,0:07:04.830
+We're also given an opportunity to record
+our new seed phrase and the restore height.
+
+0:07:04.830,0:07:09.210
+These are important pieces of information
+and act as the keys to the wallet.
+
+0:07:09.210,0:07:14.199
+After making a copy of this information, select
+next and then enter a new, strong password
+
+0:07:14.199,0:07:16.139
+to encrypt the wallet file.
+
+0:07:16.139,0:07:21.089
+We recommend using password generators usually
+bundled with managers such as Bitwarden and
+
+0:07:21.089,0:07:22.590
+KeePassXC.
+
+0:07:23.665,0:07:25.968
+When you're ready to continue, hit next.
+
+0:07:27.332,0:07:32.400
+Mining using this GUI is only possible with
+the availability of a local node.
+
+0:07:32.400,0:07:38.800
+Hosting a local node is both great for the
+security of others and your own personal privacy.
+
+0:07:38.800,0:07:42.629
+To run your own local node you need to download
+a copy of the blockchain.
+
+0:07:42.629,0:07:47.840
+The entire Monero blockchain is currently
+around 130GB in size.
+
+0:07:47.840,0:07:51.789
+It's constantly increasing in size and is
+something you should keep in mind.
+
+0:07:51.789,0:07:55.759
+For those who don't have this amount of memory
+to spare, you can alternatively download a
+
+0:07:55.759,0:08:01.419
+pruned copy of the blockchain, this currently
+takes around 50GB of space.
+
+0:08:01.419,0:08:05.479
+Depending on your own circumstances you will
+want to select different options.
+
+0:08:05.479,0:08:09.779
+We're going to download a full copy of the
+blockchain to the default location, so all
+
+0:08:09.779,0:08:13.919
+that's left to do is click next once again.
+
+0:08:13.919,0:08:18.919
+To finish up, all we need to do is review
+our settings and select *Create wallet* and
+
+0:08:18.919,0:08:23.569
+then enter the password we chose in the previous
+step.
+
+0:08:23.569,0:08:27.460
+In the bottom left-hand corner of the landing
+page you'll notice that the current network
+
+0:08:27.460,0:08:30.409
+status is labelled *Synchronising*.
+
+0:08:30.409,0:08:34.029
+Be prepared to wait a significant amount of
+time for this process to complete.
+
+0:08:34.029,0:08:37.340
+It can take anywhere from 12 hours to a week.
+
+0:08:37.340,0:08:41.800
+The time it takes to complete will depend
+on your blockchain choices, your hardware
+
+0:08:41.800,0:08:44.330
+and your internet speed.
+
+0:08:44.330,0:08:49.290
+Writing the blockchain to an SSD will guarantee
+the best performance.
+
+0:08:49.290,0:08:53.709
+Currently we’re only leeching the blockchain
+from the P2P network and sharing is caring
+
+0:08:53.709,0:08:57.380
+after all, so we’ll want to enable seeding
+as well.
+
+0:08:57.380,0:09:02.259
+To do this, we’re going to have to set special
+rules in the firewall to allow incoming connections
+
+0:09:02.259,0:09:07.600
+for the Monero Peer Network (18080) and the
+P2Pool Peer Network (37889) on both our computers
+
+0:09:07.600,0:09:08.870
+and routers.
+
+0:09:09.432,0:09:14.571
+For information on how to do this, you can
+check out our  node setup guide which is linked below
+
+0:09:15.630,0:09:19.750
+Once your node is synchronised (as you can
+see mine is now) it will be time for you to
+
+0:09:19.750,0:09:21.231
+move on to the next section.
+
+0:09:27.825,0:09:31.380
+Alright, it's nearly time to get our mining
+underway.
+
+0:09:31.380,0:09:34.710
+The software is now synchronised with the
+rest of the network and we've now only got
+
+0:09:34.710,0:09:36.920
+a few more settings to change.
+
+0:09:37.273,0:09:42.240
+We're now to going to select the *settings*
+tab from the menu and then *node*.
+
+0:09:42.240,0:09:46.639
+For now we're going to stop the daemon with
+the button provided.
+
+0:09:46.639,0:09:50.519
+Next we're going to add the following flags
+to the box provided.
+
+0:09:50.519,0:09:53.129
+You can find a copy of them in the video description.
+
+0:09:53.744,0:09:57.800
+These options help to ensure reliability and
+security.
+
+0:09:57.800,0:10:00.790
+Once you've entered those settings, you can
+restart the daemon.
+
+0:10:01.817,0:10:06.370
+To access the mining menu, click on the advanced
+tab.
+
+0:10:06.370,0:10:11.920
+Here we want to change mode to P2Pool and
+confirm we're using the *mini* side chain,
+
+0:10:11.920,0:10:14.519
+which is recomended for all new users.
+
+0:10:14.519,0:10:18.269
+We're going to leave everything else as default
+for now.
+
+0:10:18.269,0:10:21.209
+Let's click *Start mining*.
+
+0:10:21.209,0:10:26.769
+To continue, the Monero software will need
+to install the additional P2Pool software.
+
+0:10:26.769,0:10:33.610
+It will automatically install it to the same
+location and all we have to do is select *yes*.
+
+0:10:33.610,0:10:38.580
+It will take a short while to download and
+when it's done, you'll receive a prompt.
+
+0:10:38.580,0:10:41.050
+It's finally time to start mining!
+
+0:10:41.050,0:10:45.050
+So let's go ahead and select *Start mining*
+once more.
+
+0:10:45.050,0:10:50.690
+At first you will see your status change to
+*Connected + Mining* and once everything is
+
+0:10:50.690,0:10:54.139
+up and running, the Monero software will then
+display your hashrate.
+
+0:10:54.797,0:10:59.810
+Your hashrate, is the speed at which your
+computer is securing the network, the greater
+
+0:10:59.810,0:11:02.284
+your hashrate, the greater your rewards!
+
+0:11:09.600,0:11:13.870
+There are two big incentives for miners to
+use the P2Pool.
+
+0:11:13.870,0:11:19.200
+First is the low payout threshold and 0% fees
+and the other is the ability to sign up to
+
+0:11:19.200,0:11:22.030
+the xmrvsbeast raffle.
+
+0:11:22.030,0:11:27.127
+If it's your first time hearing about the
+xmrvsbeast raffle, here's what you need to know.
+
+0:11:28.015,0:11:34.269
+The raffle exists to incentivise miners, especially
+those with low powered machines to contribute
+
+0:11:34.269,0:11:36.220
+the security of the network.
+
+0:11:36.220,0:11:40.720
+You can sign up to the raffle via the xmrvsbeast
+website
+
+0:11:40.720,0:11:46.220
+Before heading over there, let's first copy
+our new address to the clipboard.
+
+0:11:46.220,0:11:49.750
+Registration gives you access to two different
+reward streams.
+
+0:11:49.750,0:11:52.139
+The first is a sequential boost.
+
+0:11:52.139,0:11:55.279
+You can take a look at the boost dashboard
+via the link.
+
+0:11:55.279,0:12:00.310
+For more details about how it works, just
+click on *rules*.
+
+0:12:00.310,0:12:03.620
+Let's head back to the main raffle basboard.
+
+0:12:03.620,0:12:07.490
+Once again, for more details, click on *rules*.
+
+0:12:07.490,0:12:11.209
+Now that we've seen how this all works, let's
+register.
+
+0:12:11.209,0:12:16.030
+To register, you'll need to enter the primary
+address of the new wallet you created.
+
+0:12:16.030,0:12:19.000
+The token field should be left blank for new
+registrations.
+
+0:12:19.000,0:12:23.279
+As we're new to mining, we'll initially receive
+an error message.
+
+0:12:23.279,0:12:27.450
+This is because we're yet to prove that we're
+actively mining.
+
+0:12:27.450,0:12:32.069
+Only once we've started making contributions
+to the network will we be able to register
+
+0:12:32.069,0:12:33.470
+successfully.
+
+0:12:33.470,0:12:37.950
+Once you've registered successfully, make
+a note of the token you are issued with, as
+
+0:12:37.950,0:12:40.579
+this will be required in the future!
+
+0:12:40.579,0:12:44.300
+With your address and token, you can then
+check the history of your wins, using the
+
+0:12:44.300,0:12:46.510
+link on the main page.
+
+0:12:46.510,0:12:51.670
+If you have any troubles with these steps
+please head over to the [xmrvsbeast subreddit](https://www.reddit.com/r/xmrvsbeast)
+
+0:12:51.670,0:12:54.493
+and search for similar issues before posting.
+
+0:13:01.360,0:13:05.800
+You may be wondering how to know when you
+can successfully sign up to the raffle.
+
+0:13:05.800,0:13:12.770
+You can easily check the progress of your
+miner remotely by visiting mini.p2pool.observer.
+
+0:13:12.770,0:13:17.430
+Here you can use your Monero address to search
+and find your individual progress.
+
+0:13:17.430,0:13:20.540
+Once again, as we're new to mining we'll get
+an error.
+
+0:13:20.540,0:13:25.389
+Only once we've begun finding shares will
+we see information about the miner and its
+
+0:13:25.389,0:13:26.800
+progress.
+
+0:13:26.800,0:13:30.360
+Once we see a valid share, we can then sign
+up for the raffle.
+
+0:13:30.360,0:13:34.850
+To find out how often you may produce shares,
+head back to the main page and select the
+
+0:13:34.850,0:13:41.509
+average share time calculator, punch in your
+hashrate and you'll receive an estimate.
+
+0:13:41.509,0:13:46.029
+Let's take a look at another miners progress
+to see an example.
+
+0:13:46.029,0:13:50.899
+Here you can see statistics from the miner
+including average effort, blocks found and
+
+0:13:50.899,0:13:52.970
+share positions.
+
+0:13:52.970,0:13:55.455
+Here the shares move from right to left with
+time .
+
+0:13:56.674,0:14:00.880
+Below this you'll see information about each
+payout and the shares which enabled those
+
+0:14:00.880,0:14:02.395
+payouts at the bottom.
+
+0:14:09.428,0:14:10.880
+Well, there you have it!
+
+0:14:10.880,0:14:14.540
+Hopefully you're now up and running and earning
+those sweet rewards.
+
+0:14:14.540,0:14:19.389
+As a parting note, please remember this pool
+is only possible because of the hard work
+
+0:14:19.389,0:14:20.579
+of contributors.
+
+0:14:20.579,0:14:25.149
+The main repository for p2pool
+can be found in the description below.
+
+0:14:25.149,0:14:29.110
+If you're interested to know more about it's
+features and how it works, including how to
+
+0:14:29.110,0:14:32.649
+set things up on different OSs, this is the
+place to come.
+
+0:14:32.649,0:14:36.350
+And at the bottom of this page you will find
+a donation address.
+
+0:14:36.350,0:14:40.499
+The people who work on these things do it
+mostly for love rather than money, so every
+
+0:14:40.499,0:14:43.510
+donation goes to keeping them motivated.
+
+0:14:43.510,0:14:49.029
+We sincerely hope this guide has helped you
+on your way to participating in Monero ecosystem.
+
+0:14:49.029,0:14:54.129
+If you're interested in more in depth guides,
+please check out the other videos in our channel.
+
+0:14:54.129,0:14:58.350
+And if you found this useful and want to send
+us a tip, our address can be found on screen
+
+0:14:58.350,0:14:59.350
+now.
+
+0:14:59.350,0:15:01.430
+Anyway, that's all from us this time around.
+
+0:15:01.430,0:15:03.449
+So thanks for watching and goodbye for now!
+
+0:15:05.599,0:15:06.799
+~moneroguides
+
