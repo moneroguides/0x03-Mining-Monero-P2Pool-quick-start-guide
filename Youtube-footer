@@ -1,0 +1,36 @@
+Prerequisites:
+
+  - gpg (Linux)
+  - Kleopatra (Windows) - [GPG4WIN](https://www.gpg4win.org)
+  - +50GB of free disk space
+
+.....................................................................
+
+0:00 INTRO
+1:21 DOWNLOADING AND VERIFYING THE MONERO GUI WALLET
+3:21 INSTALLING THE MONERO GUI WALLET - LINUX
+4:15 INSTALLING THE MONERO GUI WALLET - WINDOWS
+6:22 SETTING UP YOUR WALLET AND NODE
+9:22 TIME TO MINE
+11:05 SIGNING UP TO THE XMRVSBEAST RAFFLE
+12:56 MONERO.OBSERVER
+14049 OUTRO
+
+.....................................................................
+
+--disable-dns-checkpoints --enable-dns-blocklis
+
+.....................................................................
+
+Getmonero.org - https://www.getmonero.org/
+01x01 - Importing Public Keys & Verifying Hashes - https://moneroguides.org/tutorials/01x01-importing-public-keys-and-verifying-hashes/
+01x02 Setting up your own node - https://moneroguides.org/tutorials/01x02-setting-up-your-own-node/
+XMRvsBeast - https://xmrvsbeast.com/p2pool/
+XMRvsbeast subreddit - https://www.reddit.com/r/xmrvsbeast
+P2P.observer - https://mini.p2pool.observer/
+P2Pool github - https://github.com/SChernykh/p2pool
+
+.....................................................................
+
+All contents of this video are valid on release, please keep in mind that future updates may mean that some steps are no longer required or information is invalid.
+If enough of these changes occur a new video will be released.
