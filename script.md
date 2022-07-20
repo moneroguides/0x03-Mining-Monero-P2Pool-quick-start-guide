@@ -151,7 +151,7 @@ Once your node is synchronised (as you can see mine is now) it will be time for 
 
 Alright, it's nearly time to get our mining underway. 
 
-Firstly, as a Windows user, you will want to close the software and start it again with administrative privileges. You can do with by right clicking on the start menu or dektop icon.
+Firstly, as a Windows user, you'll want to close the software and start it again with administrative privileges. This can be done by right clicking on the start menu or desktop icon.
 
 The software is now synchronised with the rest of the network and we've now only got a few more settings to change.
 
