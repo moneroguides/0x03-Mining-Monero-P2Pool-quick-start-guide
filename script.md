@@ -1,4 +1,4 @@
-# Mining Monero; P2Pool quick start quide
+# Mining Monero; P2Pool quick start guide
 
 ## Prerequisites:
 
